@@ -1,0 +1,307 @@
+/* Muziekschool */
+
+body{
+    background: white;
+    color: rgba(88,103,113,1.00);
+    font-weight: 400;
+    font-variant: normal;
+    font-style: normal;
+    font-family: bebas-neue;
+    line-heigt: 1.5;
+    width: 980px;
+    clear: both;
+    margin-right: auto;
+    height: 100px;
+    margin-left: 400px;
+    font-size: 50px;
+    text-align: left;
+}
+/*koppen*/
+h1,h3,h4,h5,h6{
+	color:darkslategrey;
+	font-weight:normal;
+	line-heigt:1;
+	margin-bottom:0.3em;
+}
+h4,h5,h6 {font-weight:bold;}
+
+h1{font-size:1.6em;}
+h2{
+    font-size: 52px;
+	}
+h3{
+	font-size:20px;
+   
+}
+h4{font-size:15px;}
+h5{font-size:15px}
+h6{font-size:1em;}
+
+/*Tekst elementen*/
+p{
+    margin-bottom: 1em;
+    font-size: 15px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+.inhoud #tekst-inhoud p {
+    text-align: left;
+}
+
+
+/*primaire navigatie*/
+
+#primaire-nav{
+    background-color: rgba(126,163,215,1.00);
+    min-height: 46px;
+    text-align: center;
+}
+
+#primaire-nav a{
+    color: white;
+    display:block;
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 70px;
+    text-align:center;
+    text-decoration: none;
+	padding-top: 13px;
+}
+
+#primaire-nav a:hover {color:gainsboro;}
+ul.tab{
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+ul.tab li{
+	float:left;
+	list-style:none;
+}
+
+ul.tab a{text-decoration:none}
+
+/*Inhoud*/
+
+.inhoud{
+    font-size: 15px;
+    backgroudn-color: #FBFBF8;
+    min-height: 300px;
+    font-weight: 400;
+    text-align: left;
+    top: auto;
+}
+
+.inhoud a{
+	color:#999;
+	text-decoration:none
+}
+
+.inhoud a:hover{color:#000;}
+
+/*Tekst inhoud*/
+#tekst-inhoud{
+    padding-top: 30px;
+    padding-right: 65px;
+    padding-left: 75px;
+    padding-bottom: 10px;
+    height: 1000px;
+    font-weight: 400;
+}
+
+/*navigatie in de voet*/
+
+#voet-nav{
+    background-color: rgba(126,163,215,1.00);
+    height: 15px;
+    text-align: center;
+    border-top: 1px solid rgba(126,163,215,1.00);
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+	border-bottom-color: rgba(126,163,215,1.00);
+}
+#voet-nav a{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 65px;
+    text-align: center;
+    text-decoration: overline;   
+    
+}
+#voet-nav a:hover{color:gainsboro;}
+
+
+/*Footer*/
+#footer{
+	color:rgba(88,103,113,1.00);
+	padding: 0 6px 12px;
+	margin-top:-6px;
+}
+
+#footer a{
+	color:#555;
+	text-decoration:none;
+}
+
+#footer span.text-separator{
+	color:#888;
+	padding: 0 3px;
+}
+
+
+/*Floats*/
+.left{
+    float: left;
+    font-size: 15px;
+	color: rgba(88,103,113,1.00);
+}
+
+/*afbeeldingen*/
+.nieuws-afbeelding{
+	width: 200px;
+	height: 100;
+}
+
+#tekst-inhoud h2 p {
+    font-family: bebas-neue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+#tekst-inhoud h2 strong {
+    font-size: 20px;
+}
+
+
+.inhoud table {
+    text-align: center;
+	height: 450px;
+	padding-top:45px;
+	padding-bottom: 80px;
+
+}
+tbody tr th {
+    font-size: 50px;
+    text-align: center;
+}
+tr td img {
+    border-bottom-width: thick;
+    border-bottom-color: rgba(126,163,214,1.00);
+    
+}
+tbody tr td {
+    font-size: 50px;
+    border-bottom-color: rgba(157,158,157,1.00);
+    font-family: bebas-neue;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(88,103,113,1.00);
+    text-align: center;
+}
+tr th img {
+    border-bottom-width: thick;
+	border-bottom-color: rgba(126,163,214,1.00);
+}
+
+body img {
+    border-bottom: thick solid rgba(126,163,215,1.00);
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 57%;
+  padding-bottom: 70px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  padding-bottom: 70px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 200px;
+  height:200px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  font-size: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn .card p {
+    font-size: 15px;
+}
+.rightcolumn p {
+	font-size: 15px;
+}
+
+table tr td {
+    padding: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: bebas-neue;
+    text-align: left;
+    font-size: 50px;
+}
+tr td textarea {
+    font-family: bebas-neue;
+    font-style: normal;
+    font-weight: 200;
+    font-size: medium;
+    color: rgba(89,104,114,1.00);
+    text-align: left;
+}
+.inhoud #tekst-inhoud img {
+    text-align: left;
+}
+
+
+.inhoud #tekst-inhoud iframe {
+    left: 55px;
+}
+
+
+
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
